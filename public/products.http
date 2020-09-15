@@ -1,0 +1,17 @@
+// Get products
+GET https://api.europharma.kz/app/products
+Authorization: Bearer $token
+Content-Type: application/json
+###
+
+// Get products changed >= 1593338871
+GET https://api.europharma.kz/app/products?changed=1593338871
+Authorization: Bearer $token
+Content-Type: application/json
+###
+
+// Get products page 2
+GET https://api.europharma.kz/app/products?p=2
+Authorization: Bearer $token
+Content-Type: application/json
+###

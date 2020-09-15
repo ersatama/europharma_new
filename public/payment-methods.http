@@ -1,0 +1,5 @@
+// Get payment methods
+GET https://api.europharma.kz/app/payment-medthods
+Authorization: Bearer $token
+Content-Type: application/json
+###

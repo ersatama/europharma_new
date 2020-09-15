@@ -1,0 +1,11 @@
+// Get pharmacies
+GET https://api.europharma.kz/app/pharmacies
+Authorization: Bearer $token
+Content-Type: application/json
+###
+
+// Get pharmacies by city_id
+GET https://api.europharma.kz/app/pharmacies?city_id=1
+Authorization: Bearer $token
+Content-Type: application/json
+###

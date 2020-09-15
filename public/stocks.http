@@ -1,0 +1,11 @@
+// Get stocks
+GET https://api.europharma.kz/app/stocks
+Authorization: Bearer $token
+Content-Type: application/json
+###
+
+// Get changed >= {1593338871} stocks
+GET https://api.europharma.kz/app/stocks?changed=1593338871
+Authorization: Bearer $token
+Content-Type: application/json
+###

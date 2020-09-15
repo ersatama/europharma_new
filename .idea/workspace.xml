@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f7d0ea7-3941-4daf-9d47-94f40189bf71" name="Default Changelist" comment="" />
+    <list default="true" id="8f7d0ea7-3941-4daf-9d47-94f40189bf71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contracts/Category/CategoryContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contracts/City/CityContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contracts/CurlContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contracts/DeliveryMethod/DeliveryMethodContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contracts/DeliveryMethodList/DeliveryMethodListContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contracts/PaymentMethod/PaymentMethodContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contracts/PaymentMethodList/PaymentMethodListContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contracts/Pharmacy/PharmacyContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contracts/Product/ProductContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contracts/Stock/StockContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Category/CategoryRepositoryEloquent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Category/CategoryRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/City/CityRepositoryEloquent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/City/CityRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/DeliveryMethod/DeliveryMethodRepositoryEloquent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/DeliveryMethod/DeliveryMethodRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/PaymentMethod/PaymentMethodRepositoryEloquent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/PaymentMethod/PaymentMethodRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Pharmacy/PharmacyRepositoryEloquent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Pharmacy/PharmacyRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Product/ProductRepositoryEloquent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Product/ProductRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Stock/StockRepositoryEloquent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Stock/StockRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/blog/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -17,6 +53,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -124,16 +163,26 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hDZ250FUBawb4TTDSypLeqGKKg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/stocks.http" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\new_europharma\app\Models" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -143,7 +192,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599547412497</updated>
-      <workItem from="1599547413624" duration="475000" />
+      <workItem from="1599547413624" duration="21862000" />
+      <workItem from="1599802401946" duration="1749000" />
+      <workItem from="1599804861175" duration="9541000" />
+      <workItem from="1599979867932" duration="52864000" />
     </task>
     <servers />
   </component>
@@ -155,5 +207,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="688" y="310" key="#Composer/0.0.1536.824@0.0.1536.824" timestamp="1599547519133" />
+    <state x="318" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599727860434">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="318" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599727860434" />
+    <state x="593" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600211289644">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="593" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600211289644" />
+    <state x="123" y="209" key="FileChooserDialogImpl" timestamp="1600154388187">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="123" y="209" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600154388187" />
+    <state width="1258" height="606" key="GridCell.Tab.0.bottom" timestamp="1600080752151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1258" height="606" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600080752151" />
+    <state width="1258" height="606" key="GridCell.Tab.0.center" timestamp="1600080752151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1258" height="606" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600080752151" />
+    <state width="1258" height="606" key="GridCell.Tab.0.left" timestamp="1600080752151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1258" height="606" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600080752151" />
+    <state width="1258" height="606" key="GridCell.Tab.0.right" timestamp="1600080752151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1258" height="606" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600080752151" />
+    <state x="641" y="154" key="NewPhpClassDialog" timestamp="1600207047787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="641" y="154" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1600207047787" />
+    <state x="555" y="78" key="SettingsEditor" timestamp="1600192536063">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="78" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600192536063" />
+    <state x="526" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600196698197">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600196698197" />
   </component>
 </project>
