@@ -18,7 +18,7 @@ class CreateUsersTable extends Migration
         Schema::create(UserContract::TABLE, function (Blueprint $table) {
             $table->id();
             $table->enum(UserContract::STATUS,UserContract::STATUS_VALUES)->default(UserContract::USER);
-            $table->string(UserContract::NAME);
+            $table->string(UserContract::NAME)->nullable();
             $table->enum(UserContract::GENDER,UserContract::GENDER_VALUES)->default(UserContract::EMPTY);
             $table->date(UserContract::BIRTHDATE)->useCurrent();
             $table->string(UserContract::PHONE)->unique();

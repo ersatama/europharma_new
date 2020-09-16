@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/auth','UserController@auth')->name('auth');
+
 //GET STOCK BY ID
 Route::get('/stock/{id}','StockController@getById')->name('stock.getById');
 //GET STOCK BY PRODUCT ID
